@@ -7,6 +7,7 @@ public class AdressePostale {
     public int cp;
     public String ville;
 
+    //ajout tp2
     public AdressePostale(int num_rue, String libelle_rue, int cp, String ville){
         this.num_rue = num_rue;
         this.libelle_rue = libelle_rue;

@@ -16,7 +16,7 @@ public class TestAdressePostale {
         System.out.println(ap2.cp);
         System.out.println(ap2.ville);*/
 
-
+        //ajout tp2
         ap = new AdressePostale(ap.num_rue, ap.libelle_rue, ap.cp, ap.ville);
     }
 }
