@@ -33,7 +33,7 @@ public class TestPersonne {
         //p.NouveauPrenom(p.prenom);
         p.ReturnNom(p.nom);
         p.ReturnPrenom(p.prenom);
-        p.ReturnAdresse(p.app);
+        //p.ReturnAdresse(p.app);
 
     }
 }
