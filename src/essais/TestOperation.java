@@ -1,6 +1,5 @@
 package essais;
 
-import entites.Compte;
 import entites.Operation;
 import entites.Credit;
 import entites.Debit;
@@ -21,9 +20,21 @@ public class TestOperation {
         for (int i = 0; i < 8; i++) {
             System.out.println(t[i]);
         }
-        int calcul = 0;
+
+        double montantDebit = 0;
+        double montantCredit = 0;
+
+        /*for (Operation operation : t) {
+            t.afficherType();
+            if (t instanceof Débit){
+                montantDebit += t.montant;
+            }
+            if (t instanceof Crédit){
+                montantCredit -= t.montant;
+            }
+        }
         //int calcul = t[0] + t[1] + t[2] + t[3] - t[4] - t[5] - t[6] - t[7];
-        System.out.println(" Le montant global de toutes les opérations est de : " + calcul);
+        System.out.println(" Le montant global de toutes les opérations est de : " + (montantDebit + montantCredit));*/
     }
 }
 
