@@ -8,4 +8,8 @@ public class Compte {
         this.solde = solde;
     }
 
+    public String toString() {
+        return "Compte numero " + this.id + ", avec un solde de " + this.solde;
+    }
+
 }
