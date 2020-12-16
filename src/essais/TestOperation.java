@@ -21,16 +21,16 @@ public class TestOperation {
             System.out.println(t[i]);
         }
 
-        double montantDebit = 0;
+        /*double montantDebit = 0;
         double montantCredit = 0;
 
-        /*for (Operation operation : t) {
-            t.afficherType();
-            if (t instanceof Débit){
-                montantDebit += t.montant;
+        for (Operation operation : t) {
+            operation.afficherType();
+            if (operation instanceof Debit){
+                montantDebit += operation.montant;
             }
-            if (t instanceof Crédit){
-                montantCredit -= t.montant;
+            if (operation instanceof Credit){
+                montantCredit -= operation.montant;
             }
         }
         //int calcul = t[0] + t[1] + t[2] + t[3] - t[4] - t[5] - t[6] - t[7];
